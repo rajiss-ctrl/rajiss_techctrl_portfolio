@@ -6,13 +6,28 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    // name: "SchulYou",
+    name: "NextLeveFunding",
+    description:
+      "Prop firm web App .",
+    image: "/NEXTLEVEL.png",
+    github: "/",
+    link: "https://nextlevelfunding.co.uk",
+  },
+  {
     name: "StockTrack",
     description:
       "StockTrack is a web app that can be use to keep track of stock and inventories to make informed business decisions.",
-    image: "/stocktrack.png",
+    image: "/stocktracker.png",
     github: "https://github.com/rajiss-ctrl/stocktrack",
-    link: "https://rajiss-ctrl.github.io/stocktrack",
+    link: "https://stocktrack.vercel.app/",
+  },
+  {
+    name: "KodeCamp LMS",
+    description:
+      "Learning Management System.",
+    image: "/kodecamp.png",
+    github: "",
+    link: "https://lms.kode.camp/",
   },
   {
     name: "Fylo",

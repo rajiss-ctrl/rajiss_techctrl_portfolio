@@ -32,17 +32,17 @@ const AboutSection = () => {
             <p>
               Hi, my name is Raji Sarafadeen Sanjo and I am a{" "}
               <span className="font-bold">{"highly passionate"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
+              <span className="font-bold">{" self-motivated"}</span>, 
               <span className="font-bold">{" driven"}</span> software engineer
               
             </p>
             <br />
             <p>
-             As a proactive learner, I expanded my skills in web development through esteemed platforms like Coursera in HTML, CSS, and JavaScript (2021 certificate) and SoloLearn (2021). Additionally, I gained practical experience as an intern at Kodekamp (2022), solidifying my proficiency in ReactJS and furthering my passion for creating remarkable digital experiences.
+            As a proactive learner, I expanded my skills in web development through esteemed platforms like Coursera in HTML, CSS, and JavaScript (2021 certificate) and SoloLearn (2021). Additionally, I gained practical experience as an intern at Kodecamp (2022), where I worked on an LMS project, solidifying my proficiency in ReactJS and furthering my passion for creating remarkable digital experiences.
             </p>
             <br />
             <p>
-           Avidly Pursuing My Passions: Reading, Sports, Traveling. Constantly Seeking Fresh Experiences, I Engage in Diverse Hobbies, Always Learning.
+            Avidly Pursuing My Passions: Reading, Sports, Traveling. Constantly Seeking Fresh Experiences, I Engage in Diverse Hobbies, Always Learning.
             </p>
             <br />
             <p>
@@ -50,7 +50,7 @@ const AboutSection = () => {
               <span className="font-bold text-teal-500">
                 never stop growing
               </span>{" "}
-              and that&#39;s what I have a strong passion for technology and constantly push its limits. I'm excited to see where my career takes me and always open to new opportunities that come my way. 🙂
+              and that's what I have a strong passion for. I'm excited to see where my career takes me and always open to new opportunities that come my way. 🙂
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
