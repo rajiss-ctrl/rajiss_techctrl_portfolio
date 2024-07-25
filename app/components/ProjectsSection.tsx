@@ -14,6 +14,14 @@ const projects = [
     link: "https://nextlevelfunding.co.uk",
   },
   {
+    name: "Skincare System",
+    description:
+      "Skincare System is an e-commerce website that showcases skincare products, where all functionalities required of a real e-commerce website are implemented for memorable user experiance.",
+    image: "/skin-care.png",
+    github: "https://github.com/rajiss-ctrl/hng-stage-2-task",
+    link: "https://hng-stage-2-task-one.vercel.app/",
+  },
+  {
     name: "StockTrack",
     description:
       "StockTrack is a web app that can be use to keep track of stock and inventories to make informed business decisions.",
