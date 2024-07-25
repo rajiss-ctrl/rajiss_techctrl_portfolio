@@ -15,8 +15,7 @@ const projects = [
   },
   {
     name: "Skincare System",
-    description:
-      "Skincare System is an e-commerce website that showcases skincare products, where all functionalities required of a real e-commerce website are implemented for memorable user experiance.",
+    description:"Skincare System is an e-commerce site showcasing skincare products, providing all essential features for a seamless and memorable user experience.",
     image: "/skin-care.png",
     github: "https://github.com/rajiss-ctrl/hng-stage-2-task",
     link: "https://hng-stage-2-task-one.vercel.app/",
