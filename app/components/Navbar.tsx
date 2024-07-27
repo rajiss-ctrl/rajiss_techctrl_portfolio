@@ -27,13 +27,15 @@ const Navbar = () => {
     const currentTheme = theme === "system" ? systemTheme : theme
     const [navbar, setNavbar] = useState(false)
   return (
-  <header className={`w-full mx-auto py-2 px-4 sm:px-20 fixed top-0 z-50 shadow ${currentTheme === 'dark' && 'bg-stone-900 z-50' } ${currentTheme === 'light' && 'bg-white z-50' }  z-50 dark:bg-stone-950 dark:border-b dark:border-stone-600`}>
+  <header className={`w-full mx-auto px-[1.4rem] md:px-[1.8rem] lg:px-20 fixed top-0 z-50 shadow ${currentTheme === 'dark' && 'bg-[#000000] z-50' } ${currentTheme === 'light' && 'bg-[rgb(255,255,255,0.9)] z-50' }  z-50 dark:bg-[#000000] dark:border-b dark:border-stone-600`}>
     <nav className="justify-between md:items-center md:flex">
       <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <div className="md:py-5 md:block">
+            <div className="md:py-2 md:block">
               <Link to='home'>
-                <h2 className="cursor-pointer text-2xl font-bold">Raji | S | S</h2>
+                <h2 className=" cursor-pointer text-2xl font-bold">
+                  Hacky<span className="text-[#ff0404]">Raji</span>
+                </h2>
               </Link>
             </div>
             <div className="md:hidden">

@@ -17,7 +17,7 @@ const skills = [
 
 const AboutSection = () => {
   return (
-    <section id="about">
+    <section id="about" className="px-[1.4rem] md:px-[1.8rem] lg:px-20" >
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
           About Me
@@ -25,7 +25,7 @@ const AboutSection = () => {
         </h1>
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
-          <div className="md:w-1/2 ">
+          <div className=" md:w-1/2 ">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
               Get to know me!
             </h1>
@@ -72,7 +72,7 @@ const AboutSection = () => {
               alt=""
               width={325}
               height={325}
-              className="hidden md:block md:relative md:bottom-4 md:left-28 md:z-0"
+              className="hidden md:block md:relative md:-bottom-2 lg:bottom-4  md:left-2 lg:left-28 md:z-0"
             />
           </div>
         </div>

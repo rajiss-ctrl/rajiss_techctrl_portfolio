@@ -15,8 +15,9 @@ export default function RootLayout({
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
+      <title>HackyRaji</title>
       <head />
-      <body className="dark:bg-stone-900">
+      <body className="">
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
           {children}
