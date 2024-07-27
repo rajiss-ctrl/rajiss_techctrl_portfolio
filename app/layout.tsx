@@ -9,6 +9,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  
   return (
     <html lang="en">
       {/*
@@ -17,7 +18,7 @@ export default function RootLayout({
       */}
       <title>HackyRaji</title>
       <head />
-      <body className="">
+      <body>
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
           {children}
